@@ -1,0 +1,46 @@
+html, body
+{
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color:lightgray;
+    font-size: 100%;
+    font-family: Gill Sans, sans-serif;
+    overflow: hidden;
+    background-image: url("../img/bg_vintage.jpg");
+    background-position: center;
+    background-size: auto;
+}
+
+.fridge {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    border: solid 5px black;
+    background-image: url("../img/fridge_vintage_02.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.magnet {
+    position: absolute;
+    cursor: pointer;
+    padding: 3px;
+    font-size: 0.75rem;
+    color: black;
+    background-image: url("../img/note_white_vintage.png");
+    background-position: center;
+    background-size: 350%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    width: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
